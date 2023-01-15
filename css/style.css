@@ -164,6 +164,28 @@ nav ul li a{
     font-weight: 500;
     font-size: 16px;
 }
+
+/* PROJECT AREA */
+.project{
+    text-align: center;
+    margin-top: 130px;
+}
+.project-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.project-photos{
+    display: flex;
+    margin-top: 50px;
+}
+.project-photos img{
+    width: 300px;
+    height: 600px;
+}
+.project-photos img:hover{
+    transform: scale(1.02);
+}}
 /* FACT SECTION */
 .facts{
     margin-top: 130px;
