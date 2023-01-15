@@ -200,7 +200,43 @@ nav ul li a{
     color: #727272;
     margin-top: 10px;
 }
+/* SUPONSPORS SECTION */
+.suponspors{
+    margin-top: 200px;
+    text-align: center;
+}
+.suponspors-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.suponspors-logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.suponspors-logo img{
+    filter: grayscale(100%);
+}
+.suponspors-logo img:hover{
+    filter: grayscale(0);
+}
 /* MAIN AREA START END */
+
+/* FOOTER AREA START */
+footer{
+    text-align: center;
+    margin-top: 150px !important;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 20px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 18px;
+}
+/* FOOTER AREA END */
 
 
 /* MOBILE RESPONSIVE */
@@ -250,4 +286,9 @@ nav ul li a{
     .fact-items{
         flex-direction: column;
     }
+    /* SUPONSPORS SECTION */
+    .suponspors-logo{
+        flex-direction: column;
+    }
+
 }
