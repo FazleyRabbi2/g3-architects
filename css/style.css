@@ -73,7 +73,7 @@ nav ul li a{
 /* BANNER END HERE */
 
 /* MAIN AREA START HERE */
-/* TEAM SSECTION */
+/* TEAM SECTION STYLE */
 .team{
     display: flex;
     margin-top: 85px;
@@ -102,7 +102,107 @@ nav ul li a{
 .team-header .orange-color{
     color: #FF900E;
 }
+/* FEATURES SECTION STYLE */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features-content h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.features-heading{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-item{
+    width: 514px;
+    height: 111px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature-item-heading{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.feature-description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.feature-photo{
+    position: relative;
+}
+.feature-photo img{
+    width: 450px;
+    height: 700px;
+    border-radius: 8px;
+}
+.experience{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    background: #FF900E;
+    border-radius: 8px;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: -70px;
+
+}
+.experience h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0;
+}
+.experience p{
+    font-weight: 500;
+    font-size: 16px;
+}
+/* FACT SECTION */
+.facts{
+    margin-top: 130px;
+}
+.facts-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.fact-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    gap: 40px;
+}
+.fact-item{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 25px 35px;
+}
+.fact-item:hover{
+    background: #eee;
+}
+.fact-item h3{
+    color: #424242;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+}
+.fact-item p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 10px;
+}
 /* MAIN AREA START END */
+
+
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 576px) {
     /* HEADER AREA */
@@ -134,7 +234,20 @@ nav ul li a{
         width: 100%;
     }
 
-}
-@media screen and (max-width:992px) and(min-width:577px) {
-    
+    /* FETURES SECTION */
+    .features{
+        flex-direction: column;
+    }
+    .feature-item{
+        width: 100%;
+        padding: 10px;
+    }
+    .feature-photo img{
+        width: 100%;
+        height: auto;
+    }
+    /* FACT SECTION */
+    .fact-items{
+        flex-direction: column;
+    }
 }
