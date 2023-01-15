@@ -304,13 +304,25 @@ footer{
         width: 100%;
         height: auto;
     }
+
+    /* PROJECT SECTION */
+    .project-photos{
+        flex-direction: column;
+    }
+    .project-photos img{
+        width: 100%;
+        height: auto;
+    }
+    
     /* FACT SECTION */
     .fact-items{
         flex-direction: column;
     }
+
     /* SUPONSPORS SECTION */
     .suponspors-logo{
         flex-direction: column;
     }
+    
 
 }
